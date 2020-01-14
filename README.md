@@ -104,6 +104,8 @@
 
 SDK包含“TTTLiveEngineKit.framework”
 
+下载framework(https://pan.baidu.com/s/1Ki3rxni3rlGAk3mnxfSULQ)，放入ThirdPart下
+
 **framewotk只支持真机，不支持模拟器**
 
 工程已做如下配置，直接运行工程
