@@ -86,9 +86,6 @@
     } else { //观众上麦__加入房间
         BOOL swapWH = UIInterfaceOrientationIsPortrait(UIApplication.sharedApplication.statusBarOrientation);
         [TTProgressHud showHud:self.view message:@"连麦中"];
-        NSString * serverIp = [[NSUserDefaults standardUserDefaults] stringForKey:@"SERVERIP"];
-        int port = [[NSUserDefaults standardUserDefaults] stringForKey:@"PORT"].intValue;
-        [TTManager.rtcEngine setServerIp:serverIp port:port];
         //设置频道模式：直播
         [TTManager.rtcEngine setChannelProfile:TTTRtc_ChannelProfile_LiveBroadcasting];
         // 设置日志文件

@@ -13,8 +13,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *roomIDTF;
 @property (weak, nonatomic) IBOutlet UILabel *websiteLabel;
 
-@property (weak, nonatomic) IBOutlet UITextField *IPTextField;
-@property (weak, nonatomic) IBOutlet UITextField *PortTextField;
 
 @property (nonatomic, weak) UIButton *roleSelectedBtn;
 @property (nonatomic, assign) int64_t uid;
@@ -33,7 +31,6 @@
     int64_t roomID = [[NSUserDefaults standardUserDefaults] stringForKey:@"ENTERROOMID"].integerValue;
     roomID = arc4random() % 1000000 + 1;
     _roomIDTF.text = [NSString stringWithFormat:@"%lld", roomID];
-    _PortTextField.keyboardType = UIKeyboardTypeNumberPad;
     
 }
 
@@ -55,9 +52,6 @@
         [self showToast:@"房间ID不能等于0"];
         return;
     }
-    
-    [NSUserDefaults.standardUserDefaults setObject:_IPTextField.text forKey:@"SERVERIP"];
-    [NSUserDefaults.standardUserDefaults setObject:_PortTextField.text forKey:@"PORT"];
     
     [NSUserDefaults.standardUserDefaults setObject:_roomIDTF.text forKey:@"ENTERROOMID"];
     [NSUserDefaults.standardUserDefaults synchronize];

@@ -95,9 +95,6 @@
         [TTProgressHud showHud:self.view message:@"上麦中"];
         //设置代理
         TTManager.rtcEngine.delegate = self;
-        NSString * serverIp = [[NSUserDefaults standardUserDefaults] stringForKey:@"SERVERIP"];
-        int port = [[NSUserDefaults standardUserDefaults] stringForKey:@"PORT"].intValue;
-        [TTManager.rtcEngine setServerIp:serverIp    port:port];
         
         //设置频道模式：直播
         [TTManager.rtcEngine setChannelProfile:TTTRtc_ChannelProfile_LiveBroadcasting];

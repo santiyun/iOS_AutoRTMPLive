@@ -168,98 +168,6 @@
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gsS-3i-rta" userLabel="View2">
-                                <rect key="frame" x="0.0" y="64" width="375" height="40"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="服务器地址:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jh-wT-Api">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="40"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="80" id="Y8i-yI-di1"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IP:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ek7-21-4Ve">
-                                        <rect key="frame" x="86" y="3" width="32" height="34"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="32" id="bJX-xT-dCb"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="4"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FTp-YN-3ib">
-                                        <rect key="frame" x="124" y="3" width="120" height="34"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="120" id="6gs-Ib-DdM"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Port:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sp7-0T-qZR">
-                                        <rect key="frame" x="250" y="3" width="40" height="34"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="40" id="7ma-ON-Uc0"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="4"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Vb-Ow-aJp">
-                                        <rect key="frame" x="300" y="3" width="48" height="34"/>
-                                        <color key="backgroundColor" red="0.96841954190000001" green="0.96841954190000001" blue="0.96841954190000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="48" id="N0t-UO-Ik1"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="7Vb-Ow-aJp" firstAttribute="top" secondItem="gsS-3i-rta" secondAttribute="top" constant="3" id="3IH-t5-7Bu"/>
-                                    <constraint firstAttribute="bottom" secondItem="Ek7-21-4Ve" secondAttribute="bottom" constant="3" id="3Lm-e2-CgX"/>
-                                    <constraint firstItem="sp7-0T-qZR" firstAttribute="top" secondItem="gsS-3i-rta" secondAttribute="top" constant="3" id="5ct-0y-NeF"/>
-                                    <constraint firstAttribute="bottom" secondItem="sp7-0T-qZR" secondAttribute="bottom" constant="3" id="IAW-uo-Bfs"/>
-                                    <constraint firstAttribute="height" constant="40" id="KNm-EF-4c2"/>
-                                    <constraint firstItem="4jh-wT-Api" firstAttribute="leading" secondItem="gsS-3i-rta" secondAttribute="leading" id="Qc3-pv-XBM"/>
-                                    <constraint firstAttribute="bottom" secondItem="FTp-YN-3ib" secondAttribute="bottom" constant="3" id="aEk-pS-ero"/>
-                                    <constraint firstItem="4jh-wT-Api" firstAttribute="top" secondItem="gsS-3i-rta" secondAttribute="top" id="aK2-FU-Qb6"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="aMF-mM-JGo"/>
-                                    <constraint firstItem="Ek7-21-4Ve" firstAttribute="top" secondItem="gsS-3i-rta" secondAttribute="top" constant="3" id="b9G-g3-eiJ"/>
-                                    <constraint firstAttribute="bottom" secondItem="7Vb-Ow-aJp" secondAttribute="bottom" constant="3" id="hvT-Tt-kp6"/>
-                                    <constraint firstItem="7Vb-Ow-aJp" firstAttribute="leading" secondItem="sp7-0T-qZR" secondAttribute="trailing" constant="10" id="ixu-rY-8BH"/>
-                                    <constraint firstItem="sp7-0T-qZR" firstAttribute="leading" secondItem="FTp-YN-3ib" secondAttribute="trailing" constant="6" id="jxA-7L-1I5"/>
-                                    <constraint firstItem="Ek7-21-4Ve" firstAttribute="leading" secondItem="4jh-wT-Api" secondAttribute="trailing" constant="6" id="mVm-TY-8To"/>
-                                    <constraint firstItem="FTp-YN-3ib" firstAttribute="leading" secondItem="Ek7-21-4Ve" secondAttribute="trailing" constant="6" id="o7R-0x-Ras"/>
-                                    <constraint firstItem="FTp-YN-3ib" firstAttribute="top" secondItem="gsS-3i-rta" secondAttribute="top" constant="3" id="tEz-Tj-i9o"/>
-                                    <constraint firstAttribute="bottom" secondItem="4jh-wT-Api" secondAttribute="bottom" id="yD7-Fa-agN"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -277,7 +185,6 @@
                             <constraint firstItem="vYn-TX-5w3" firstAttribute="top" secondItem="mbZ-55-OUk" secondAttribute="top" constant="60" id="anK-Yq-V2b"/>
                             <constraint firstItem="vYn-TX-5w3" firstAttribute="centerX" secondItem="Dlp-gW-bby" secondAttribute="centerX" id="bgN-aU-laW"/>
                             <constraint firstItem="gat-gw-C9K" firstAttribute="trailing" secondItem="mbZ-55-OUk" secondAttribute="trailing" id="del-Kl-KAh"/>
-                            <constraint firstAttribute="trailing" secondItem="gsS-3i-rta" secondAttribute="trailing" id="fXu-7R-uE8"/>
                             <constraint firstItem="UFN-a3-taK" firstAttribute="top" secondItem="JK0-Y7-KLa" secondAttribute="bottom" constant="10" id="gGz-Me-BTp"/>
                             <constraint firstAttribute="bottom" secondItem="EGO-nR-xZt" secondAttribute="bottom" id="iS3-sW-xZP"/>
                             <constraint firstItem="vcn-k7-9Ad" firstAttribute="leading" secondItem="mbZ-55-OUk" secondAttribute="leading" constant="50" id="ldf-w1-Z5K"/>
@@ -286,8 +193,6 @@
                             <constraint firstItem="UFN-a3-taK" firstAttribute="centerX" secondItem="Dlp-gW-bby" secondAttribute="centerX" id="pjL-fb-3v4"/>
                             <constraint firstItem="uKO-lh-815" firstAttribute="top" secondItem="gat-gw-C9K" secondAttribute="bottom" constant="40" id="qdq-ZP-ehs"/>
                             <constraint firstItem="gat-gw-C9K" firstAttribute="top" secondItem="vcn-k7-9Ad" secondAttribute="bottom" constant="10" id="qql-Qm-AaN"/>
-                            <constraint firstItem="gsS-3i-rta" firstAttribute="leading" secondItem="mbZ-55-OUk" secondAttribute="leading" id="smW-oN-zlT"/>
-                            <constraint firstItem="gsS-3i-rta" firstAttribute="top" secondItem="mbZ-55-OUk" secondAttribute="top" constant="20" id="t9M-QA-l1j"/>
                             <constraint firstItem="FfG-TF-IH4" firstAttribute="top" secondItem="vYn-TX-5w3" secondAttribute="bottom" constant="10" id="uhu-PM-jMm"/>
                             <constraint firstItem="uKO-lh-815" firstAttribute="leading" secondItem="mbZ-55-OUk" secondAttribute="leading" constant="50" id="w1I-lU-4qb"/>
                             <constraint firstItem="npT-m4-eOz" firstAttribute="top" secondItem="FfG-TF-IH4" secondAttribute="bottom" constant="30" id="yVW-vo-uZR"/>
@@ -295,8 +200,6 @@
                         <viewLayoutGuide key="safeArea" id="mbZ-55-OUk"/>
                     </view>
                     <connections>
-                        <outlet property="IPTextField" destination="FTp-YN-3ib" id="tGg-QV-Yzh"/>
-                        <outlet property="PortTextField" destination="7Vb-Ow-aJp" id="4CI-ld-IWh"/>
                         <outlet property="anchorBtn" destination="qY6-b7-60r" id="6eR-qf-Fo5"/>
                         <outlet property="roomIDTF" destination="TxT-GV-90h" id="VVu-VJ-VrD"/>
                         <outlet property="websiteLabel" destination="JK0-Y7-KLa" id="1gR-hP-RTe"/>
