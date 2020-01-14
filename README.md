@@ -11,7 +11,7 @@
 # 示例程序
 
 #### 准备工作
-1. 在三体云官网SDK下载页 [http://3ttech.cn/index.php?menu=53]() 下载对应平台的 连麦直播SDK；
+1. 下载TTTLiveEngineKit.framework(https://pan.baidu.com/s/1Ki3rxni3rlGAk3mnxfSULQ)，放入ThirdPart下；
 2. 登录三体云官网 [http://dashboard.3ttech.cn/index/login]() 注册体验账号，进入控制台新建自己的应用并获取APPID；
 3. 下载DEMO源码，将APPID填入代码中相应的位置并体验效果。
 
@@ -103,8 +103,6 @@
 # iOS工程配置
 
 SDK包含“TTTLiveEngineKit.framework”
-
-下载framework(https://pan.baidu.com/s/1Ki3rxni3rlGAk3mnxfSULQ)，放入ThirdPart下
 
 **framewotk只支持真机，不支持模拟器**
 
