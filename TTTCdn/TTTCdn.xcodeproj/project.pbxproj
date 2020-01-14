@@ -408,7 +408,7 @@
 				CURRENT_PROJECT_VERSION = 0110;
 				DEVELOPMENT_TEAM = 7XP66VHL84;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../../../Api/Frameworks/TTTLiveEngineKit";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TTTLive/TTTLive-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TTTLive/Info.plist;
@@ -419,10 +419,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				MARKETING_VERSION = 2.4.1;
-				OTHER_LDFLAGS = (
-					"-framework",
-					TTTLiveEngineKit,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tttlive.TTTLiveCdn;
 				PRODUCT_NAME = "直推连麦Demo";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -437,7 +434,7 @@
 				CURRENT_PROJECT_VERSION = 0110;
 				DEVELOPMENT_TEAM = NJBGD8S39W;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../../../Api/Frameworks/TTTLiveEngineKit";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TTTLive/TTTLive-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = TTTLive/Info.plist;
@@ -448,10 +445,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				MARKETING_VERSION = 2.4.1;
-				OTHER_LDFLAGS = (
-					"-framework",
-					TTTLiveEngineKit,
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tttlive.TTTLiveCdn;
 				PRODUCT_NAME = "直推连麦Demo";
 				TARGETED_DEVICE_FAMILY = 1;
